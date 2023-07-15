@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a60421cf8b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">    
+    <title>Travel Website|Contact</title>
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <div class="container">
+            <h1 class="logo lg-heading text-red">WowTravels</h1>
+            <ul class="nav-items">
+              <li class="nav-item"><a href="index.html">Home</a></li>
+              <li class="nav-item"><a href="about.html">About</a></li>
+              <li class="nav-item"><a href="contact.html">Contact</a></li>
+         </ul>
+      </div>
+     </nav>
+     <section class="contact-form">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="company-address">
+                    <div class="address-group">
+                   <i class="fa-3x  fas fa-map-marker-alt text-red"></i>
+                       <h2 class="text-grey md-heading">Location</h2>
+                      <p>#2661 Jamakpuri Colony, Sambhaji nagar Pune</p>
+                    </div>
+                    <div class="address-group">
+                   <i class=" far fa-envelope fa-3x text-red"></i>
+                      <h2 class="text-grey md-heading">E-Mail</h2>
+                    <p>wowtravels@gmail.com</p>
+                    </div>
+                    <div class="address-group">
+                   <i class=" fas fa-phone-square-alt fa-3x text-red"></i>
+                  <h2 class="text-grey md-heading">Call</h2>
+                    <p>+91-7447231899</p>
+                    </div>
+                    <img src="./img/company-img.jpg" alt="Company-img">
+                </div>
+                <form  action="https://script.google.com/macros/s/AKfycbyEoLbwVpCdIZweOa03V6B71CCmvCkkP7Tzou7Z4RIP/dev" name=""  class="form">     <!--//onsubmit="callvalue()"// -->
+                    <h1 class="lg-heading text-black">Contact Us</h1>
+                    <p class="text-grey">Let us know your questions, suggestions and concerns by filling out the contact form below</p>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username"  required>
+                    </div>
+                    <div class="form-group">
+                     <label for="email">Email</label>
+                     <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" name="phone" id="phone"  required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label> 
+                      <textarea name="message" id="message" placeholder="write something here....." ></textarea>
+                 </div>
+                  <button  onclick="popUp()" type="submit" class="form-btn">Submit</button>
+                </form>
+
+            </div>
+        </div>
+       
+
+     </section>
+     
+ <footer class="footer" id="footer">
+    <div class="social-media-links">
+       <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook fa-4x"></i></a>
+          <a href="https://www.twitter.com/" target="blank"> <i class="fab fa-twitter fa-4x"></i></a>
+          <a href="https://www.instagram.com/" target="blank">  <i class="fab fa-instagram fa-4x"></i></a>
+    </div>
+    <p>World Travel &copy; All Rights Reserved</p>
+    
+</footer>
+</body>
+    <!-- function callvalue(){
+        var name = document.getElementById("username").value;
+        var email = document.getElementById("email").value;
+        var phone = document.getElementById("phone").value;
+        var message = document.getElementById("message").value;
+      document.writeln("Your info:"+"<br>"+"your name:"+name+"<br>"+"your email:"+email+"<br>"+"your phone:"+phone+"<br>"+"your message:"+message);
+        console.log(data);
+      } -->
+    
+<script type="text/javascript">
+function popUp()
+      {
+        alert("form submitted successfully");
+      }
+</script>
+
+</html>
