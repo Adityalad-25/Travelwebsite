@@ -4,5 +4,4 @@ This will help a beginer to understand various html concpets like html tags, htm
 This will also help to understand css styling along with layout format .
 For more refer the repo created .
 
-link for the website :- [click here](https://adityalad-25.github.io/Travelwebsite/)https://adityalad-25.github.io/Travelwebsite/
-
+link for the website :- [click here](https://adityalad-25.github.io/Travelwebsite/)
